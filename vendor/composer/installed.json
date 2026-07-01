@@ -1,0 +1,69 @@
+{
+    "packages": [
+        {
+            "name": "inhere/sroute",
+            "version": "v2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/inhere/php-srouter.git",
+                "reference": "9b609a07a08e76109a4c5cdd24ead61ad94f23d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/inhere/php-srouter/zipball/9b609a07a08e76109a4c5cdd24ead61ad94f23d0",
+                "reference": "9b609a07a08e76109a4c5cdd24ead61ad94f23d0",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "suggest": {
+                "inhere/simple-print-tool": "Very lightweight data printing tools"
+            },
+            "time": "2018-11-16T16:27:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Helper/functions.php"
+                ],
+                "psr-4": {
+                    "Inhere\\Route\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "inhere",
+                    "email": "in.798@qq.com",
+                    "homepage": "http://www.yzone.net/"
+                }
+            ],
+            "description": "a very lightweight and fasted router.",
+            "homepage": "https://github.com/inhere/php-srouter",
+            "keywords": [
+                "library",
+                "php-router",
+                "route",
+                "router"
+            ],
+            "support": {
+                "issues": "https://github.com/inhere/php-srouter/issues",
+                "source": "https://github.com/inhere/php-srouter/tree/master"
+            },
+            "install-path": "../inhere/sroute"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

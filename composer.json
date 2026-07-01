@@ -1,0 +1,25 @@
+{
+    "name": "pandaapi/framework",
+    "description": "熊猫API框架 - 高性能无状态API框架，PandaDB融合ThinkPHP链式操作，原生PDO实现",
+    "type": "framework",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "inhere/sroute": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PandaAPI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PandaAPI\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
